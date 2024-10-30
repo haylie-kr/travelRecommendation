@@ -1,0 +1,44 @@
+nav {
+    background-color: #000000;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 200px;
+    padding: 5px;
+    border-radius: 10%;
+  }
+  
+  button {
+    padding: 7px 15px;
+    background-color: #2a5bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15%;
+  }
+  
+  button:hover {
+    background-color: #30c5f3;
+  }
