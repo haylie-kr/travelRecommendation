@@ -1,8 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav {
-    background-color: #000000;
-    padding: 20px;
+    background-color: #000000;    
     display: flex;
     align-items: center;
+    padding: 20px;
     justify-content: space-between;
     
   }
@@ -42,3 +47,50 @@ nav {
   button:hover {
     background-color: #30c5f3;
   }
+  body{
+    background-image: url(images/background.jpg);
+  }
+  button.bntBook {
+    padding: 7px 15px;
+    background-color: #048394;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15%;
+  }
+  div.intro_title{
+    color : white;
+    font-size: 36px;
+    font-weight : bold;
+    width : 300px;
+    height : 200px;
+    word-wrap: break-word; 
+    word-break: break-all; 
+    padding: 10px; 
+    overflow-wrap: break-word; 
+  }
+  div.intro_description{
+    color : white;
+    width : 200px;
+    word-wrap: break-word; 
+    word-break: break-all; 
+    padding: 10px; 
+    overflow-wrap: break-word; 
+    width : 600px;
+    height : 150px;
+  }
+  div.sns {
+    color : white;
+    font-size: xx-large;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-right: 10px;
+}
+div.container {
+    display : flex;
+    align-items: flex-start;
+}
+div.container-wrapper {
+    margin-left: 100px;
+    margin-top : 200px;
+}
