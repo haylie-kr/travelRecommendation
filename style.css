@@ -94,3 +94,37 @@ div.container-wrapper {
     margin-left: 100px;
     margin-top : 200px;
 }
+div.about_title {
+    color:white;
+    font-size: xx-large;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+div.about_description{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.5);
+    word-wrap: break-word; 
+    word-break: break-all; 
+    padding: 10px; 
+    overflow-wrap: break-word; 
+    max-width: 1000px;
+}
+div.teams_w{
+    display:flex;
+    color:white;
+    margin-top: 100px;
+}
+div.teams{
+    display:flex;
+}
+div.role{
+    color:white;
+    font-weight: bold;
+    background-color: #2a5bff;
+    border-radius: 15%;    
+}
+div .team {
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+    margin: 25px;
+}
